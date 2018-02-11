@@ -54,4 +54,10 @@
         <item>50</item>
     </string-array>
 
+    <!-- The default actions of slider when use for notification and ringer -->
+    <string-array name="config_defaultSliderActionsForNotificationRinger" translatable="false">
+        <item>64</item>
+        <item>62</item>
+        <item>63</item>
+    </string-array>
 </resources>
