@@ -30,13 +30,13 @@ public final class RingerController extends SliderControllerBase {
     private static final String TAG = "RingerController";
 
     private static final int RINGER_NORMAL = 50;
-    private static final int RINGER_VIGRATE = 51;
+    private static final int RINGER_VIBRATE = 51;
     private static final int RINGER_SILENT = 52;
 
     private static final SparseIntArray MODES = new SparseIntArray();
     static {
         MODES.put(RINGER_NORMAL, AudioManager.RINGER_MODE_NORMAL);
-        MODES.put(RINGER_VIGRATE, AudioManager.RINGER_MODE_VIBRATE);
+        MODES.put(RINGER_VIBRATE, AudioManager.RINGER_MODE_VIBRATE);
         MODES.put(RINGER_SILENT, AudioManager.RINGER_MODE_SILENT);
     }
 
